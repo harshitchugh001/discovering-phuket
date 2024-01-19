@@ -1,0 +1,276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Order Signature\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-26 07:11+0000\n"
+"PO-Revision-Date: 2017-04-26 07:26+0000\n"
+"Last-Translator: worldweb <dipendra@worldwebtechnology.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: woocommerce-order-signature.php:106
+msgid "Settings"
+msgstr "Settings"
+
+#: woocommerce-order-signature.php:107
+msgid "Support"
+msgstr "Support"
+
+#: woocommerce-order-signature.php:108
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/woo-os-misc-functions.php:128
+msgid "Please enter your signature and save this."
+msgstr "Please enter your signature and save this."
+
+#: includes/woo-os-misc-functions.php:129
+msgid "Remember: "
+msgstr "Remember: "
+
+#: includes/woo-os-misc-functions.php:129
+msgid "Please click on save button to save signature."
+msgstr "Please click on save button to save signature."
+
+#: includes/woo-os-misc-functions.php:130
+msgid "Clear"
+msgstr "Clear"
+
+#: includes/woo-os-misc-functions.php:131
+msgid "Save"
+msgstr "Save"
+
+#: includes/woo-os-misc-functions.php:132
+#: includes/admin/class-woo-os-admin.php:31
+msgid "Signature"
+msgstr "Signature"
+
+#: includes/admin/class-woo-os-admin.php:73
+msgid "Signature Options"
+msgstr "Signature Options"
+
+#: includes/admin/class-woo-os-admin.php:80
+msgid "Enable Signature:"
+msgstr "Enable Signature:"
+
+#: includes/admin/class-woo-os-admin.php:83
+msgid ""
+"If you want to use the signature option on your site, then you have to "
+"enable this setting."
+msgstr ""
+"If you want to use the signature option on your site, then you have to "
+"enable this setting."
+
+#: includes/admin/class-woo-os-admin.php:87
+msgid "Enable Signature Required:"
+msgstr "Enable Signature Required:"
+
+#: includes/admin/class-woo-os-admin.php:90
+msgid ""
+"If you want to use the signature field is required when place the order then "
+"please enable this option."
+msgstr ""
+"If you want to use the signature field is required when place the order then "
+"please enable this option."
+
+#: includes/admin/class-woo-os-admin.php:94
+msgid "Display On Order Detail Page:"
+msgstr "Display On Order Detail Page:"
+
+#: includes/admin/class-woo-os-admin.php:97
+msgid ""
+"If you want to display the signature on view order page then please enable "
+"this option."
+msgstr ""
+"If you want to display the signature on view order page then please enable "
+"this option."
+
+#: includes/admin/class-woo-os-admin.php:101
+msgid "Display On New Order Email:"
+msgstr "Display On New Order Email:"
+
+#: includes/admin/class-woo-os-admin.php:104
+msgid ""
+"If you want to display the signature in the new order email template then "
+"please enable this option."
+msgstr ""
+"If you want to display the signature in the new order email template then "
+"please enable this option."
+
+#: includes/admin/class-woo-os-admin.php:108
+msgid "Display On On-Hold Order Email:"
+msgstr "Display On On-Hold Order Email:"
+
+#: includes/admin/class-woo-os-admin.php:111
+msgid ""
+"If you want to display the signature in the on-hold order email template "
+"then please enable this option."
+msgstr ""
+"If you want to display the signature in the on-hold order email template "
+"then please enable this option."
+
+#: includes/admin/class-woo-os-admin.php:115
+msgid "Display On Processing Order Email:"
+msgstr "Display On Processing Order Email:"
+
+#: includes/admin/class-woo-os-admin.php:118
+msgid ""
+"If you want to display the signature in the processing order email template "
+"then please enable this option."
+msgstr ""
+"If you want to display the signature in the processing order email template "
+"then please enable this option."
+
+#: includes/admin/class-woo-os-admin.php:122
+msgid "Display On Completed Order Email:"
+msgstr "Display On Completed Order Email:"
+
+#: includes/admin/class-woo-os-admin.php:125
+msgid ""
+"If you want to display the signature in the completed order email template "
+"then please enable this option."
+msgstr ""
+"If you want to display the signature in the completed order email template "
+"then please enable this option."
+
+#: includes/admin/class-woo-os-admin.php:129
+msgid "No Signature Pad Load On Screen Resize:"
+msgstr "No Signature Pad Load On Screen Resize:"
+
+#: includes/admin/class-woo-os-admin.php:132
+msgid ""
+"If you don't want to resize the signature pad when your screen resize then "
+"please enable this option."
+msgstr ""
+"If you don't want to resize the signature pad when your screen resize then "
+"please enable this option."
+
+#: includes/admin/class-woo-os-admin.php:136
+msgid "Signature Field Width:"
+msgstr "Signature Field Width:"
+
+#: includes/admin/class-woo-os-admin.php:141
+msgid ""
+"Here you can namage the signature field width. You can use the width "
+"parameter eg: 100% Or 500px Or 500em."
+msgstr ""
+"Here you can namage the signature field width. You can use the width "
+"parameter eg: 100% Or 500px Or 500em."
+
+#: includes/admin/class-woo-os-admin.php:145
+msgid "Signature Title Color:"
+msgstr "Signature Title Color:"
+
+#: includes/admin/class-woo-os-admin.php:150
+msgid "The title color for signature field. Dafault is <code>#0a018b</code>."
+msgstr "The title color for signature field. Dafault is <code>#0a018b</code>."
+
+#: includes/admin/class-woo-os-admin.php:154
+msgid "Signature Pan Color:"
+msgstr "Signature Pan Color:"
+
+#: includes/admin/class-woo-os-admin.php:159
+msgid "The pen color for signature field. Dafault is <code>#000000</code>."
+msgstr "The pen color for signature field. Dafault is <code>#000000</code>."
+
+#: includes/admin/class-woo-os-admin.php:163
+msgid "Signature container Background:"
+msgstr "Signature container Background:"
+
+#: includes/admin/class-woo-os-admin.php:168
+msgid ""
+"The container background color for signature field. Dafault is <code>"
+"#a9a9a9</code>."
+msgstr ""
+"The container background color for signature field. Dafault is <code>"
+"#a9a9a9</code>."
+
+#: includes/admin/class-woo-os-admin.php:172
+msgid "Signature Pad Background:"
+msgstr "Signature Pad Background:"
+
+#: includes/admin/class-woo-os-admin.php:177
+msgid ""
+"The pad background color for signature field. Dafault is <code>#cccccc</code>"
+"."
+msgstr ""
+"The pad background color for signature field. Dafault is <code>#cccccc</code>"
+"."
+
+#: includes/admin/class-woo-os-admin.php:181
+msgid "Signature Pad Border Color:"
+msgstr "Signature Pad Border Color:"
+
+#: includes/admin/class-woo-os-admin.php:186
+msgid ""
+"The pad border color for signature field. Dafault is <code>#000000</code>."
+msgstr ""
+"The pad border color for signature field. Dafault is <code>#000000</code>."
+
+#: includes/admin/class-woo-os-admin.php:190
+msgid "Signature Field Button Color:"
+msgstr "Signature Field Button Color:"
+
+#: includes/admin/class-woo-os-admin.php:195
+msgid "The button color for signature field. Dafault is <code>#1a1a1a</code>."
+msgstr "The button color for signature field. Dafault is <code>#1a1a1a</code>."
+
+#: includes/admin/class-woo-os-admin.php:199
+msgid "Signature Button Text Color:"
+msgstr "Signature Button Text Color:"
+
+#: includes/admin/class-woo-os-admin.php:204
+msgid ""
+"The button text color for signature field. Dafault is <code>#ffffff</code>."
+msgstr ""
+"The button text color for signature field. Dafault is <code>#ffffff</code>."
+
+#: includes/admin/class-woo-os-admin.php:208
+msgid "Signature Remark Text Color:"
+msgstr "Signature Remark Text Color:"
+
+#: includes/admin/class-woo-os-admin.php:213
+msgid "The remark text for signature field. Dafault is <code>#000000</code>."
+msgstr "The remark text for signature field. Dafault is <code>#000000</code>."
+
+#: includes/admin/class-woo-os-admin.php:217
+msgid "Custom CSS:"
+msgstr "Custom CSS:"
+
+#: includes/admin/class-woo-os-admin.php:222
+msgid ""
+"Here you can enter your custom css for the signature. The css will be "
+"automatically added to the header, when you save it."
+msgstr ""
+"Here you can enter your custom css for the signature. The css will be "
+"automatically added to the header, when you save it."
+
+#. Name of the plugin
+msgid "Woocommerce Order Signature"
+msgstr "Woocommerce Order Signature"
+
+#. Description of the plugin
+msgid ""
+"This plugin allows you to add signature field in the woocommerce checkout "
+"page where customer can signature on checkout page and also admin can see "
+"the signature image in backend order detail page. Also you can add signature "
+"image in various emails."
+msgstr ""
+"This plugin allows you to add signature field in the woocommerce checkout "
+"page where customer can signature on checkout page and also admin can see "
+"the signature image in backend order detail page. Also you can add signature "
+"image in various emails."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.serveonetech.com"
+msgstr "http://www.serveonetech.com"
+
+#. Author of the plugin
+msgid "Serveonetech"
+msgstr "Serveonetech"

@@ -1,0 +1,419 @@
+# Copyright (C) 2020 Lauri Karisola / WooElements.com
+# This file is distributed under the same license as the Conditional Payments for WooCommerce Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Conditional Payments for WooCommerce Pro 2.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-conditional-payments-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-27T15:42:13+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: woo-conditional-payments\n"
+
+#. Plugin Name of the plugin
+msgid "Conditional Payments for WooCommerce Pro"
+msgstr ""
+
+#. Description of the plugin
+msgid "Disable payment methods based on shipping methods, customer address and much more."
+msgstr ""
+
+#. Author of the plugin
+msgid "Lauri Karisola / WooElements.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wooelements.com"
+msgstr ""
+
+#: includes/admin/class-woo-conditional-payments-admin.php:36
+#: includes/admin/class-woo-conditional-payments-admin.php:82
+#: includes/admin/views/ruleset.html.php:9
+#: includes/admin/views/ruleset.html.php:42
+#: includes/admin/views/settings.html.php:8
+msgid "Conditions"
+msgstr ""
+
+#: includes/admin/class-woo-conditional-payments-admin.php:41
+msgid "Go Pro"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:20
+msgid "Enable / Disable"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:25
+msgid "Enable ruleset"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:31
+#: includes/admin/views/ruleset.html.php:36
+msgid "Ruleset name"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:32
+msgid "This is the name of the ruleset for your reference."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:43
+msgid "The following conditions define whether or not actions are run."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:58
+msgid "Add Condition"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:59
+#: includes/admin/views/ruleset.html.php:89
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:66
+msgid "More conditions available in <a href=\"%s\" target=\"_blank\">the Pro version</a>."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:74
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:75
+msgid "Actions which are run if all conditions pass."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:88
+msgid "Add Action"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:95
+msgid "<strong>Enable payment methods</strong>: Payment methods will be enabled if all conditions pass. If conditions do not pass, payment methods will be disabled."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:96
+msgid "<strong>Disable payment methods</strong>: Payment methods will be disabled if all conditions pass."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:104
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:161
+msgid "Subtotal includes coupons"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:166
+msgid "Match guests by email"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:329
+msgid "Payment methods"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:342
+msgid "Fee description"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:343
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:9
+msgid "Add ruleset"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:13
+msgid "Rulesets are used to modify payment method availability. Each ruleset contains conditions and actions which are applied to payment method(s)."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:19
+#: includes/class-woo-conditional-payments-ruleset.php:41
+msgid "Ruleset"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:34
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:34
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:42
+msgid "No rulesets defined yet."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:51
+msgid "Health check"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:57
+msgid "<code>Enable payment methods - %1$s</code> in multiple rulesets"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:66
+msgid "You have <code>Enable payment methods - %1$s</code> in multiple rulesets (%2$s). <code>Enable payment methods</code> will disable the methods if conditions do not pass. It can cause unexpected behaviour when used in multiple rulesets for the same payment method (<code>%1$s</code>)."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:70
+#: includes/admin/views/settings.html.php:105
+msgid "How to fix"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:73
+msgid "Check if you can use <code>Disable payment methods</code> instead. It's usually easier to work with."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:74
+msgid "Remove <code>Enable payment methods - %s</code> from all but one ruleset."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:86
+msgid "<code>%s</code> disabled"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:96
+msgid "You have <code>%1$s - %2$s</code> in %3$s but <code>%2$s</code> is disabled in <a href=\"%4$s\" target=\"_blank\">the settings</a>. Conditional Payments can only process payment methods which are enabled."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:109
+msgid "Enable <code>%s</code> in <a href=\"%s\" target=\"_blank\">the settings</a>"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:116
+msgid "Remove <code>%1$s - %2$s</code> from %3$s."
+msgstr ""
+
+#: includes/class-woo-conditional-payments-post-type.php:26
+msgid "Conditional Payments Rulesets"
+msgstr ""
+
+#: includes/class-woo-conditional-payments-post-type.php:27
+msgid "Conditional Payments Ruleset"
+msgstr ""
+
+#: includes/frontend/class-woo-conditional-payments-frontend.php:145
+msgid "Payment method fee"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:41
+msgid "greater than"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:42
+msgid "greater than or equal"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:43
+msgid "less than"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:44
+msgid "less than or equal"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:45
+msgid "includes"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:46
+msgid "includes (exclusive)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:47
+msgid "excludes"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:48
+msgid "is"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:49
+msgid "is not"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:50
+msgid "is not empty"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:51
+msgid "is empty"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:52
+msgid "contains"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:53
+msgid "logged in"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:54
+msgid "logged out"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:80
+msgid "General"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:83
+msgid "Order Subtotal"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:87
+msgid "Products"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:91
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:97
+msgid "Billing Address"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:100
+msgid "First Name (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:104
+msgid "Last Name (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:108
+msgid "Company (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:112
+msgid "Country (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:116
+msgid "Address (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:120
+msgid "Address 2 (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:124
+msgid "City (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:128
+msgid "Postcode (billing)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:134
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:137
+msgid "First Name (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:141
+msgid "Last Name (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:145
+msgid "Company (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:149
+msgid "Country (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:153
+msgid "Address (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:157
+msgid "Address 2 (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:161
+msgid "City (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:165
+msgid "Postcode (shipping)"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:181
+msgid "Enable payment methods"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:184
+msgid "Disable payment methods"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:227
+msgid "N/A"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:393
+msgid "- All coupons -"
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:496
+msgid "- Not taxable -"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:24
+msgid "Add payment method fee"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:36
+msgid "Product Categories"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:40
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:44
+msgid "Coupon"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:52
+msgid "Customer"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:55
+msgid "Logged in / out"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:59
+msgid "Role"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:63
+msgid "Previous orders"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:72
+msgid "Language"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:75
+msgid "Language - Polylang (inactive)"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:79
+msgid "Language - WPML (inactive)"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:89
+msgid "Language - Polylang (active)"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:94
+msgid "Language - WPML (active)"
+msgstr ""
+
+#: includes/pro/class-conditional-payments-pro-functions.php:100
+msgid "Groups"
+msgstr ""

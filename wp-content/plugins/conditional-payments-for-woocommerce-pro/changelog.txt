@@ -1,0 +1,148 @@
+2.5.1 (7 July 2022)
+
+* Added condition for VAT ID by Germanized for WooCommerce Pro plugin
+
+2.5.0 (3 July 2022)
+
+* Added condition for VAT exemption
+* Added condition for VAT number by Aelia EU VAT Assistant plugin
+* Added condition for Tax ID, Business ID and VAT reg. number by Kybernaut IČO DIČ plugin
+
+2.4.0 (7 June 2022)
+
+* Added AND/OR selection for rulesets (one / all conditions have to pass)
+* Added "Number of items" condition
+* Added "Phone (billing)" condition
+* Added order status filter for "Previous orders" condition
+
+2.3.5 (22 May 2022)
+
+* Removed unnecessary debug logging
+
+2.3.4 (19 January 2022)
+
+* Added billing / shipping state condition
+
+2.3.3 (17 December 2021)
+
+* Added condition for product types (virtual, physical, downloadable)
+
+2.3.2 (3 December 2021)
+
+* For developers: added filter for changing subtotal condition value (e.g. for compatibility with multi-currency plugins)
+
+2.3.1 (9 August 2021)
+
+* Added action for setting custom no payment methods available message
+* Added "is empty / not empty" operator for billing email condition
+
+2.3.0 (21 June 2021)
+
+* Added "Disable all rulesets" setting
+* Added license key to the settings (*_WooCommerce > Settings > Payments > Conditions_*). License key will soon become mandatory for downloading plugin updates. If you dind't get license key with your order, you can re-order the key [here](https://wooelements.com/get-your-license-keys/).
+
+2.2.6 (21 April 2021)
+
+* Changed billing email condition to case-insensitive from case-sensitive
+
+2.2.5 (18 February 2021)
+
+* Improved support for 3rd party payment methods
+* WooCommerce 5.0.0 compatibility check
+
+2.2.4 (11 January 2021)
+
+* Added condition for billing email
+
+2.2.3 (13 October 2020)
+
+* Added support for multiple roles per user for user role condition
+
+2.2.2 (16 September 2020)
+
+* Added functionality for setting percentage fee on subtotal
+
+2.2.1 (11 September 2020)
+
+* Fixed bug with Products condition which prevented it to work with a lot of product variations
+
+2.2.0 (27 August 2020)
+
+* Added AJAX toggle for ruleset state (enabled / disabled)
+* Added Health Check to catch common issues with rulesets
+* Excluded taxes from the subtotal condition if the store displays subtotal excluding tax (_WooCommerce > Settings > Tax > Display prices during cart and checkout_). *Please note!* Ensure rulesets are working correctly after updating if you have subtotal conditions.
+* Product category conditions now automatically include child categories without selecting them explicitly. *Please note!* Ensure rulesets are working correctly after updating if you have category conditions.
+
+2.1.9 (6 August 2020)
+
+* Added possibility to match guests by email for Previous orders condition
+* For developers: added better support for implementing custom conditions
+
+2.1.8 (20 May 2020)
+
+* Minor fix for the user role filter to improve compatibility with 3rd party plugins
+* WooCommerce 4.1.x compatibility check
+
+2.1.7 (14 January 2020)
+
+* PHP 7.3 support
+* For developers: added WP filters for adding support for 3rd party shipping method plugins
+
+2.1.6 (3 October 2019)
+
+* Made address filters case-insensitive (previously case-sensitive)
+
+2.1.5 (23 September 2019)
+
+* Fixed bug which prevented category conditions to work correctly with product variations in some cases
+
+2.1.4 (4 September 2019)
+
+* Improved product search
+* Added postcode range and wildcard matching. Please check that postcode conditions are working correctly after update.
+
+2.1.3 (22 August 2019)
+
+* Added "Customer orders count" condition. By default only counts successful orders (processing and completed).
+
+2.1.2 (13 July 2019)
+
+* Added functionality for enabling / disabling rulesets
+
+2.1.1 (17 June 2019)
+
+* Fixed bug which caused payment method fee not apply in some cases
+
+2.1.0 (17 June 2019)
+
+* Added payment method fee action
+
+2.0.0 (13 June 2019)
+
+* Moved conditions from payment method setting pages to separate settings page (WooCommerce > Settings > Payments > Conditions). This change will allow more advanced functionality in upcoming versions. Important! Check that conditions are working correctly after updating.
+
+1.0.5 (19 February 2019)
+
+* Added filters for https://wordpress.org/plugins/groups[Groups, window="_blank"]
+
+1.0.4 (10 January 2019)
+
+* Added language filter for Polylang
+* Added language filter for WPML
+
+1.0.3 (30 November 2018)
+
+* Added coupon conditions
+
+1.0.2
+
+* Fixed Javascript issue which caused conditions disappear in some cases
+* Added support for Flexible Shipping plugin
+
+1.0.1
+
+* Fixed bug in the exclusive product category filter
+
+1.0.0
+
+* First version

@@ -1,0 +1,4 @@
+# Ignore SVN files
+.svn/*
+tags/*
+trunk/*
